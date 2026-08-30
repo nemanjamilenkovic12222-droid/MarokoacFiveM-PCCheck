@@ -1,0 +1,20 @@
+{
+  "name": "MarokoacFiveM-PCCheck",
+  "version": "1.0.0",
+  "description": "Professional FiveM PC Check System - Desktop + Web",
+  "type": "project",
+  "scripts": {
+    "setup-backend": "cd backend-api && npm install",
+    "setup-web": "cd web-dashboard && npm install",
+    "dev-backend": "cd backend-api && npm run dev",
+    "dev-web": "cd web-dashboard && npm start",
+    "build-web": "cd web-dashboard && npm run build"
+  },
+  "keywords": [
+    "fivem",
+    "security",
+    "pc-check",
+    "anticheat",
+    "maroko"
+  ]
+}
