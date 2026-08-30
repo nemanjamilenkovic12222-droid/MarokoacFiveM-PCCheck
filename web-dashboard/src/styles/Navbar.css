@@ -1,0 +1,50 @@
+.navbar {
+  background: linear-gradient(90deg, #0f0f23 0%, #1a1a35 100%);
+  padding: 1rem 0;
+  border-bottom: 2px solid #00ff96;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.nav-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00ff96;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-brand:hover {
+  text-shadow: 0 0 10px #00ff96;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-menu button {
+  background: none;
+  border: none;
+  color: var(--text-light);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0.5rem 1rem;
+}
+
+.nav-menu button:hover {
+  color: #00ff96;
+  text-shadow: 0 0 10px #00ff96;
+}

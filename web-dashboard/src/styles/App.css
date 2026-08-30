@@ -1,0 +1,19 @@
+/* Global Styles */
+:root {
+  --primary: #00ff96;
+  --secondary: #0099cc;
+  --danger: #ff3333;
+  --bg-dark: #0f0f23;
+  --bg-darker: #1a1a35;
+  --text-light: #e0e0e0;
+}
+
+body {
+  background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-darker) 100%);
+  color: var(--text-light);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+}
